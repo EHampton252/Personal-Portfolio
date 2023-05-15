@@ -16,14 +16,13 @@ export default function Introduction() {
     return (
       <>
         <h1>Introduction</h1>
-        <p>My name is Ethan, I am currently a 4th year student at THE Ohio State University studying Management Information Systems.
+        <p className="self-intro-p">My name is Ethan, I am currently a 4th year student at THE Ohio State University studying Management Information Systems.
             I have always had an interest in creating things and after finding code to be a wonderful outlet, I have been obcessed ever since.
             In my free time I am competitive powerlifter, avid movie nerd and skier, a book worm, and occasional gamer.
             I am currently working as a Software Intern at Neudesic, a Microsoft Gold Partner and tech consulting firm as an intern where I hope
             to learn how to build a fullstack application using react.
-            I am hoping to find a full time position in the tech industry after graduation in December 2022.
+            I am hoping to find a full time position with Neudesic after graduation in December 2023.
         </p>
-        <p></p>
       </>
     )
   }

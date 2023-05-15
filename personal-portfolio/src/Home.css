@@ -9,6 +9,52 @@
   color: red;
 }
 
+.headline {
+  text-align: center;
+  border: #888;
+}
+
+.profile {
+  border-radius: 100%;
+  width: 350px;
+  align-items: center;
+  
+}
+
+.nav-bar {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #ffffff;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color:black;
+  background-color: rgb(107, 105, 105);
+}
+
+.self-intro-p {
+  text-align: center;
+}
+
 .card {
   padding: 2em;
 }
