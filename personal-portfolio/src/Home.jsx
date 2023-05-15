@@ -1,10 +1,10 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 import Goals from './Personal Information/Goals.jsx'
 import Hobbies from './Personal Information/Hobbies.jsx'
 import Introduction from './Personal Information/Introduction.jsx'
 //import './public/description.txt'
 import './Home.css'
-import headshot from './assets/headshot.jpeg'
+import {headshot, LinkedInIcon, GitIcon} from './assets/index.jsx'
 
 export default function Portfolio() {
 
@@ -23,6 +23,14 @@ export default function Portfolio() {
         <h1 className="name">Ethan Hampton</h1>
         <h2 className="position">Software Intern @ Neudesic</h2>
         <h3 className="degree">MIS Student @ THE Ohio State University</h3>
+      </div>
+      <div className="socials">
+        <a href="https://github.com/EHampton252">
+          <img src={GitIcon} alt="git-icon" width="48" height="43"/>
+        </a>
+        <a href="https://www.linkedin.com/in/ethan-hampton-eth/">
+          <img src={LinkedInIcon} alt="linkedin-icon" width="50" height="43" />
+        </a>
       </div>
       <div>{Introduction()}</div>
       <div>{Goals()}</div>

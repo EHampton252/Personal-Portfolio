@@ -1,24 +1,16 @@
-.header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: red;
-}
-
 .headline {
   text-align: center;
   border: #888;
 }
 
 .profile {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
   border-radius: 100%;
   width: 350px;
-  align-items: center;
-  
+  display: block;
+
 }
 
 .nav-bar {
@@ -30,7 +22,7 @@
   padding: 0;
   overflow: hidden;
   border: 1px solid #e7e7e7;
-  background-color: #ffffff;
+  background-color: #1c97b6;
 }
 
 li {
@@ -48,11 +40,13 @@ li a {
 
 li a:hover {
   color:black;
-  background-color: rgb(107, 105, 105);
+  background-color: rgb(180, 180, 180);
 }
 
 .self-intro-p {
   text-align: center;
+  flex-wrap: wrap;
+  
 }
 
 .card {
@@ -61,4 +55,21 @@ li a:hover {
 
 .footer {
   color: #888;
+}
+
+.socials {
+  text-align: center;
+  margin: 10px;
+}
+
+.self-intro-p {
+  text-align: center;
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-header {
+  text-align: center;
 }
