@@ -1,7 +1,7 @@
 export default function Goals() {
     return (
       <>
-        <h1>Goals</h1>
+        <header className="goals-header">Goals</header>
         <p>My goals are:</p>
         <ul className="goal-list">To be a learning sponge and soak up as must knowlege as possible</ul>
         <ul className="goal-list">To be prepared for a transition to a full-time salaried employee</ul>

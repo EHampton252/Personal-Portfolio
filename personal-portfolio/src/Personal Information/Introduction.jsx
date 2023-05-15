@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 import './description.txt'
 
 export default function Introduction() {
