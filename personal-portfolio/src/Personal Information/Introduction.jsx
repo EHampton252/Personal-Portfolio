@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react'
 import './description.txt'
 
-let file = ['./description.txt']
-
 export default function Introduction() {
   // let [text, setText] = useState('')
   // useEffect(() => {

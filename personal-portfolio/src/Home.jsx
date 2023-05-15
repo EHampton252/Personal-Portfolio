@@ -7,7 +7,6 @@ import './Home.css'
 import headshot from './assets/headshot.jpeg'
 
 export default function Portfolio() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
