@@ -30,6 +30,5 @@ export default function Portfolio() {
 
 // Maybe a function to add a fun or cool meme button??
 // Maybe change button to a poll of some sort?
-
-
-//export default Portfolio
+// CSS to adapt to viewport size
+// Add DVD Video bouncy square for 404 errors?

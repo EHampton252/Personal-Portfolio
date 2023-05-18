@@ -1,3 +1,5 @@
+//import Slider from '../components/Slideshow/meme-slider.jsx';
+
 export default function Hobbies() {
     return (
       <>

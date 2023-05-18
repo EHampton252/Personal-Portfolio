@@ -5,13 +5,20 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #000000;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
 }
 
 .headline {
@@ -46,7 +53,7 @@ p {
   padding: 0;
   overflow: hidden;
   border: 1px solid #e7e7e7;
-  background-color: #1c97b6;
+  background-color: #1096d4;
 }
 
 ul.nav-bar li {
@@ -56,7 +63,7 @@ ul.nav-bar li {
 
 li a {
   display: block;
-  color: black;
+  color: rgb(33, 37, 39);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -69,12 +76,18 @@ li a:hover {
 
 .self-intro-p {
   text-align: center;
+  padding: 1em;
   flex-wrap: wrap;
   margin-bottom: 6em;
   display: block;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  border-style: solid;
+  border-radius: 1em;
+  border-color: #88888867;
+  border-width: 2px;
+  
 }
 
 .card {
@@ -84,6 +97,7 @@ li a:hover {
 .footer {
   color: #888;
   text-align: center;
+  font-size: 16px;
 }
 
 .socials {
@@ -153,4 +167,12 @@ h1 {
   margin-right: auto;
   font-weight: 500;
   width: auto;
+}
+
+.divStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 2em;
 }
