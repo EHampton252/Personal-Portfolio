@@ -14,7 +14,17 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.grid-container {
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li .hobby-list .goals-header {
+  font-size: 18px;
+  padding-bottom: 0.4em;
+}
+
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
@@ -52,7 +62,6 @@ p {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #e7e7e7;
   background-color: #1096d4;
 }
 
@@ -113,10 +122,28 @@ li a:hover {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  border: none;
+}
+.goals.giphy-embed {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 6em;
+  border: none;
+}
+
+.hobby.giphy-embed {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 6em;
+  border: none;
 }
 
 .goals-header {
-  margin-top: 2em;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 2em;
   font-size: 4em;
   line-height: 1.1;
   text-align: center;
@@ -126,20 +153,41 @@ li a:hover {
   width: auto;
 }
 
+.card-goals {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 0.1em;
+  font-weight: 400;
+}
+
 ul.goal-list {
+  grid-column-start: 2;
+  grid-column-end: 3;
   list-style-type: none;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.goals-r {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 1.5em;
+  line-height: 1.1;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 400;
   width: 50%;
 }
 
 ul.hobby-list {
+  grid-column-start: 2;
+  grid-column-end: 3;
   list-style-type: none;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 .hobby-list li {
@@ -147,7 +195,17 @@ ul.hobby-list {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+}
+
+.hobby-header {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 2em;
+  font-size: 4em;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
 }
 
 h1 {
@@ -156,17 +214,6 @@ h1 {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-}
-
-.hobby-header {
-  margin-top: 2em;
-  font-size: 4em;
-  line-height: 1.1;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 500;
-  width: auto;
 }
 
 .divStyle {
