@@ -1,0 +1,236 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li .hobby-list .goals-header {
+  font-size: 18px;
+  padding-bottom: 0.4em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr 0.75fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.headline {
+  text-align: center;
+  border: #888;
+}
+
+.profile {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  border-radius: 100%;
+  width: 350px;
+  display: block;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.1;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+}
+
+.nav-bar {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1096d4;
+}
+
+ul.nav-bar li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(33, 37, 39);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color:black;
+  background-color: rgb(180, 180, 180);
+}
+
+.self-intro-p {
+  text-align: center;
+  padding: 1em;
+  flex-wrap: wrap;
+  margin-bottom: 6em;
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-radius: 1em;
+  border-color: #88888867;
+  border-width: 2px;
+  
+}
+
+.card {
+  padding: 2em;
+}
+
+.footer {
+  color: #888;
+  text-align: center;
+  font-size: 16px;
+}
+
+.socials {
+  text-align: center;
+  margin: 10px;
+}
+
+.intro-header {
+  text-align: center;
+}
+
+.giphy-embed {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+}
+.goals.giphy-embed {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 6em;
+  border: none;
+}
+
+
+
+.goals-header {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 2em;
+  font-size: 4em;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: 500;
+}
+
+.card-goals {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 0.1em;
+  font-weight: 400;
+}
+
+.goal-list {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  list-style-type: none;
+  justify-self: center;
+}
+
+.goal-list li {
+  list-style-image: url();
+  text-align: left;
+}
+
+.fa-ul {
+  padding: 10px;
+}
+
+.fa-li {
+  height: 1em;
+  width: 1em;
+}
+
+p.goals-r {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 1.5em;
+  line-height: 1.1;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  width: 50%;
+}
+
+.hobby-header {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 2em;
+  font-size: 4em;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+}
+
+ul.hobby-list {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  list-style-type: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hobby-list li {
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hobby.giphy-embed {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 6em;
+  border: none;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.divStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 2em;
+}

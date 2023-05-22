@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 import './description.txt'
 
 export default function Introduction() {
@@ -13,7 +12,7 @@ export default function Introduction() {
 
     return (
       <>
-        <h1>Introduction</h1>
+        <h1 className= "intro-header">Hello!</h1>
         <p className="self-intro-p">My name is Ethan, I am currently a 4th year student at THE Ohio State University studying Management Information Systems.
             I have always had an interest in creating things and after finding code to be a wonderful outlet, I have been obcessed ever since.
             In my free time I am competitive powerlifter, avid movie nerd and skier, a book worm, and occasional gamer.
