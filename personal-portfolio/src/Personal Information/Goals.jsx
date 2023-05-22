@@ -1,4 +1,4 @@
-//import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
+//import { faSquare } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 export default function Goals() {
     return (
@@ -7,15 +7,13 @@ export default function Goals() {
         <header className="goals-header">GOALS</header>
         <div className="card-goals">
           <p className="goals-r">My goals are:</p>
-          <ul className="goal-list">
-          <i className="fa-regular fa-square fa-xs">
-            <li>To be a learning sponge and soak up as must knowlege as possible</li>
+          <ul className="goals-list fa-ul">
+            <li><span className="fa-li"><i className="fa-regular fa-square"></i></span>To be a learning sponge and soak up as must knowlege as possible</li>
             <li>To be prepared for a transition to a full-time salaried employee</li>
             <li>To be hired on at Neudesic post internship</li>
             <li>To be capable of building a full scale react project without help</li>
             <li>To be able to deploy a full scale React app</li>
             <li>To develop a stronger understanding of APIs</li>
-            </i>
           </ul>
          </div>
       </div>

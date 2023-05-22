@@ -29,6 +29,7 @@ export default function Home() {
     )
 }
 // Space ship icon as a "return to top" button!!
+// Responsive design
 // Meme slideshow
 // Polls?
 // Daily Quotes?
