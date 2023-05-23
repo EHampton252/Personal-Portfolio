@@ -1,0 +1,15 @@
+.self-intro-p {
+    text-align: center;
+    padding: 1em;
+    flex-wrap: wrap;
+    margin-bottom: 6em;
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: #88888867;
+    border-width: 2px;
+    
+  }

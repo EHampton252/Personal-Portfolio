@@ -14,6 +14,25 @@
   -webkit-text-size-adjust: 100%;
 }
 
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  padding-top: 1em;
+  font-size: 3em;
+  line-height: 1.1;
+  text-align: center;
+  margin: 0;
+}
+
+/* h3 */
+
+/* h4 */
+
 ul {
   padding: 0;
   margin: 0;
@@ -24,34 +43,12 @@ li .hobby-list .goals-header {
   padding-bottom: 0.4em;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 0.75fr 1fr 0.75fr;
-  grid-gap: 10px;
-  padding: 10px;
-}
-
-.headline {
-  text-align: center;
-  border: #888;
-}
-
-.profile {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5em;
-  border-radius: 100%;
-  width: 350px;
-  display: block;
-}
-
 p {
   font-size: 1.5em;
   line-height: 1.1;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 400;
+  margin: 0;
+  margin-bottom: 0;
 }
 
 .nav-bar {
@@ -85,18 +82,24 @@ li a:hover {
 
 .self-intro-p {
   text-align: center;
+  align-items: center;
   padding: 1em;
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 6em;
-  display: block;
   width: 75%;
-  margin-left: auto;
-  margin-right: auto;
   border-style: solid;
   border-radius: 1em;
   border-color: #88888867;
   border-width: 2px;
-  
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-width: 2px;
 }
 
 .card {
@@ -107,15 +110,7 @@ li a:hover {
   color: #888;
   text-align: center;
   font-size: 16px;
-}
-
-.socials {
-  text-align: center;
-  margin: 10px;
-}
-
-.intro-header {
-  text-align: center;
+  padding-top: 1em;
 }
 
 .giphy-embed {
@@ -123,44 +118,6 @@ li a:hover {
   margin-right: auto;
   display: block;
   border: none;
-}
-.goals.giphy-embed {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  padding-top: 6em;
-  border: none;
-}
-
-
-
-.goals-header {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  padding-top: 2em;
-  font-size: 4em;
-  line-height: 1.1;
-  text-align: center;
-  font-weight: 500;
-}
-
-.card-goals {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  padding-top: 0.1em;
-  font-weight: 400;
-}
-
-.goal-list {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  list-style-type: none;
-  justify-self: center;
-}
-
-.goal-list li {
-  list-style-image: url();
-  text-align: left;
 }
 
 .fa-ul {
@@ -170,61 +127,6 @@ li a:hover {
 .fa-li {
   height: 1em;
   width: 1em;
-}
-
-p.goals-r {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  font-size: 1.5em;
-  line-height: 1.1;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 400;
-  width: 50%;
-}
-
-.hobby-header {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  padding-top: 2em;
-  font-size: 4em;
-  line-height: 1.1;
-  text-align: center;
-  font-weight: 500;
-  margin: 0;
-}
-
-ul.hobby-list {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  list-style-type: none;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hobby-list li {
-  align-items: center;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hobby.giphy-embed {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  padding-top: 6em;
-  border: none;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .divStyle {
