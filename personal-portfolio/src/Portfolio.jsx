@@ -1,8 +1,8 @@
 //import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import Goals from './Personal Information/Goals.jsx'
-import Hobbies from './Personal Information/Hobbies.jsx'
-import Home from './Home.jsx'
+import Goals from './components/Goals/Goals.jsx'
+import Hobbies from './components/Hobbies/Hobbies.jsx'
+import Home from './components/Home.jsx'
 
 export default function Portfolio() {
 

@@ -1,0 +1,64 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.75fr 1fr 0.75fr;
+    grid-gap: 5px;
+    padding: 10px;
+    align-content: center;
+  }
+
+.goals-r {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 1.5em;
+    line-height: 1.1;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    width: 50%;
+  }
+
+  .goals.giphy-embed {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 6em;
+    border: none;
+  }
+  
+  .goals-header {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top: 2em;
+    font-size: 4em;
+    line-height: 1.1;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .card-goals {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top: 0.1em;
+    font-weight: 400;
+  }
+  
+  .goals-list {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .fa-ul {
+    padding: 10px;
+  }
+  
+  .fa-li {
+    height: 1em;
+    width: 1em;
+  }
+  

@@ -1,0 +1,23 @@
+.hobby-list {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    list-style-type: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hobby-list li {
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hobby.giphy-embed {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 6em;
+    border: none;
+  }

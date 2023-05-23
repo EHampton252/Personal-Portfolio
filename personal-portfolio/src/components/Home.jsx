@@ -1,6 +1,8 @@
-import Introduction from './Personal Information/Introduction.jsx'
-import './Portfolio.css'
-import {headshot, LinkedInIcon, GitIcon} from './assets/index.jsx'
+import Introduction from './Introduction/Introduction.jsx'
+import '/src/Portfolio.css'
+import './Home.css'
+import {headshot, LinkedInIcon, GitIcon} from '../assets/index.jsx'
+
 
 export default function Home() {
     return (
@@ -22,6 +24,9 @@ export default function Home() {
             <div>{Introduction()}</div>
             <iframe src="https://giphy.com/embed/11qCjC856PSmnm" width="480" height="327" className="giphy-embed" allowFullScreen></iframe>
                 <p><a href="https://giphy.com/gifs/genius-albums-11qCjC856PSmnm" alt="fire-elmo-gif" style={{ alignText: 'center' }}>via GIPHY</a></p>
+            <div>
+
+            </div>
             <p className="footer">
                 There is nothing else exciting here, I promise. Go to the menu at the top of the page to see more.
             </p>
@@ -32,5 +37,11 @@ export default function Home() {
 // Responsive design
 // Meme slideshow
 // Polls?
-// Daily Quotes?
-// 
+
+// Daily Quotes? Use stoic API
+// FOAAS when you try to close or error
+// Ron Swonson quotes
+// JokeAPI
+
+
+

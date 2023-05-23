@@ -1,10 +1,11 @@
-//import Slider from '../components/Slideshow/meme-slider.jsx';
+//import Slider from '../components/Slideshow/meme-slider.jsx';]
+import './Hobbies.css'
 
 export default function Hobbies() {
     return (
       <>
       <div className="container">
-        <h1 className="hobby-header">HOBBIES</h1>
+        <h2>HOBBIES</h2>
         <ul className="hobby-list">
           <li>Powerlifting</li>
           <li>Video Games</li>
@@ -18,3 +19,4 @@ export default function Hobbies() {
       </>
     )
   }
+  // Chess API to display real-time stats

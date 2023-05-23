@@ -1,13 +1,12 @@
 //import { faSquare } from '@fortawesome/fontawesome-svg-core/import.macro'
+import './Goals.css'
 
-export default function Goals() {
+export default function Goals() { // Change header to h2 and simplify CSS classNames
     return (
       <>
-      <div className="container">
-        <header className="goals-header">GOALS</header>
-        <div className="card-goals">
-          <p className="goals-r">My goals are:</p>
-          <ul className="goals-list fa-ul">
+        <h2>GOALS</h2>
+          <h3 className="goals-r">My goals are:</h3>
+          <ul className="goals-list grid-container">
             <li><span className="fa-li"><i className="fa-regular fa-square"></i></span>To be a learning sponge and soak up as must knowlege as possible</li>
             <li>To be prepared for a transition to a full-time salaried employee</li>
             <li>To be hired on at Neudesic post internship</li>
@@ -15,13 +14,12 @@ export default function Goals() {
             <li>To be able to deploy a full scale React app</li>
             <li>To develop a stronger understanding of APIs</li>
           </ul>
-         </div>
-      </div>
       <iframe src="https://giphy.com/embed/XreQmk7ETCak0" width="480" height="360" className="goals giphy-embed" allowFullScreen></iframe>
         <p><a href="https://giphy.com/gifs/retro-thumbs-up-XreQmk7ETCak0">via GIPHY</a></p>
       </>
     )
   }
 
+  // Break out CSS main file into smaller files
   // Empty squares for goals
   // Maybe a button function to add a goal/check-off a goal?
