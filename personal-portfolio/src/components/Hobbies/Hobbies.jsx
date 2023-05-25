@@ -1,5 +1,6 @@
 //import Slider from '../components/Slideshow/meme-slider.jsx';]
 import './Hobbies.css'
+import ChessRating from '/src/components/APIs/Chess/chess.tsx'
 
 export default function Hobbies() {
     return (
@@ -11,6 +12,7 @@ export default function Hobbies() {
           <li>Video Games</li>
           <li>Reading</li>
           <li>Playing Chess</li>
+          <li><ChessRating /></li>
           <li>Coding my own side projects</li>
         </ul>
        </div>

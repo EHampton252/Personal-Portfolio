@@ -2,7 +2,14 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Goals from './components/Goals/Goals.jsx'
 import Hobbies from './components/Hobbies/Hobbies.jsx'
-import Home from './components/Home.jsx'
+import Home from './components/Home/Home.jsx'
+
+// function scrollToTop() {
+//   window.scrollTo({
+//       top: 0,
+//       behavior: "smooth"
+//   });
+// }
 
 export default function Portfolio() {
 

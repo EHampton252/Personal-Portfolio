@@ -1,10 +1,18 @@
-import Introduction from './Introduction/Introduction.jsx'
+import Introduction from '../Introduction/Introduction.jsx'
+import Stoic from '../APIs/Quotes/stoic.tsx'
+import Quote from '../APIs/Quotes/general-quotes.tsx'
+import RonSwonson from '../APIs/Quotes/ron.tsx'
+import Bacon from '../APIs/Bacon/bacon.tsx'
+// import PlayAudio from './button.tsx'
+// import GoogleVoice from './APIs/Google-Voice/google-voice.tsx'
 import '/src/Portfolio.css'
 import './Home.css'
-import {headshot, LinkedInIcon, GitIcon} from '../assets/index.jsx'
+import {headshot, LinkedInIcon, GitIcon} from '../../assets/index.jsx'
 
 
 export default function Home() {
+
+
     return (
         <>
             <img src = {headshot} className="profile"/>
@@ -21,10 +29,26 @@ export default function Home() {
                 <img src={LinkedInIcon} alt="linkedin-icon" width="50" height="43" />
                 </a>
             </div>
+            {/* <PlayAudio /> */}
             <div>{Introduction()}</div>
+            <div className="container">
+                <h2>Daily Wisdom</h2>
+                <div className="quote"><Stoic /></div>
+                <h3>General Quotes</h3>
+                <div className="quote"><Quote /></div>
+                <h3>Ron Swonson Wisdom</h3>
+                <div className="quote"><RonSwonson /></div>
+            </div>
+
+
             <iframe src="https://giphy.com/embed/11qCjC856PSmnm" width="480" height="327" className="giphy-embed" allowFullScreen></iframe>
-                <p><a href="https://giphy.com/gifs/genius-albums-11qCjC856PSmnm" alt="fire-elmo-gif" style={{ alignText: 'center' }}>via GIPHY</a></p>
+                <p><a href="https://giphy.com/gifs/genius-albums-11qCjC856PSmnm" alt="flat-af" style={{ alignText: 'center' }}>via GIPHY</a></p>
             <div>
+
+            <div className="bacon-box">
+                <h2>Wise Words for Gains</h2>
+                <p className="bacon-ipsum"><Bacon /></p>
+            </div>
 
             </div>
             <p className="footer">
@@ -38,10 +62,10 @@ export default function Home() {
 // Meme slideshow
 // Polls?
 
-// Daily Quotes? Use stoic API
 // FOAAS when you try to close or error
 // Ron Swonson quotes
 // JokeAPI
+// Personality test on big 5?
 
 
 
