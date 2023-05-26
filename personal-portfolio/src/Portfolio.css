@@ -23,13 +23,19 @@ h1 {
 
 h2 {
   padding-top: 1em;
-  font-size: 3em;
+  padding-bottom: 0.4em;
+  font-size: 2.75em;
   line-height: 1.1;
   text-align: center;
   margin: 0;
 }
 
 /* h3 */
+h3 {
+  font-size: 22px;
+  line-height: 1.1;
+  text-align: center;
+}
 
 /* h4 */
 
@@ -78,28 +84,6 @@ li a {
 li a:hover {
   color:black;
   background-color: rgb(180, 180, 180);
-}
-
-.self-intro-p {
-  text-align: center;
-  align-items: center;
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-bottom: 6em;
-  width: 75%;
-  border-style: solid;
-  border-radius: 1em;
-  border-color: #88888867;
-  border-width: 2px;
-}
-
-.info-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  border-width: 2px;
 }
 
 .card {

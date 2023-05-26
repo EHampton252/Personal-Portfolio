@@ -1,4 +1,4 @@
-import '/src/Portfolio.css'
+import './Intro.css'
 export default function Introduction() {
   // let [text, setText] = useState('')
   // useEffect(() => {
