@@ -3,6 +3,7 @@ import Stoic from '../APIs/Quotes/stoic.tsx'
 import Quote from '../APIs/Quotes/general-quotes.tsx'
 import RonSwonson from '../APIs/Quotes/ron.tsx'
 import Bacon from '../APIs/Bacon/bacon.tsx'
+import Speech from '../APIs/Web-Speech/speech.tsx'
 // import PlayAudio from './button.tsx'
 // import GoogleVoice from './APIs/Google-Voice/google-voice.tsx'
 import '/src/Portfolio.css'
@@ -29,7 +30,7 @@ export default function Home() {
                 <img src={LinkedInIcon} alt="linkedin-icon" width="50" height="43" />
                 </a>
             </div>
-            {/* <PlayAudio /> */}
+            <Speech />
             <div>{Introduction()}</div>
             <div className="container">
                 <h2>Daily Wisdom</h2>
